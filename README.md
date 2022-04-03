@@ -1,5 +1,5 @@
 # Travel-log
-This is a travel log website which allows user as well as travel agent to interact with each other.
+This is a travel log website which allows user as well as travel agent to interact with each other. And the user can give the riview to the diffrerent places.
 
 ## Authors
 
