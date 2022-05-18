@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+label {
+  width: max-content;
+  color: #29d9d5;
+  font-size: 13px;
+  border-bottom: 0.5px solid #29d9d5;
+  margin: 3px 0;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.star {
+  color: gold;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(88, 87, 87);
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(185, 184, 184);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.buttons,
+.logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin-top: 8px;
+}
+
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.logout{
+  /* background-color: tomato; */
+  padding: 5px 21px;
+  background: black;
+  border-radius: 16px;
+  border:3px solid #29d9d5;
+  color: #29d9d5;
+  background: none;
+}
+.logout:hover{
+  background-color: #29d9d5;
+  color: black;
+}
+
+.login{
+  margin-right: 10px;
+  border: 3px solid #29d9d5;
+  padding: 6px 20px;
+  border-radius: 25px;
+  background: none;
+  color: #29d9d5;
+}
+.login:hover{
+  background-color: #29d9d5;
+  color: black;
+}
+.register{
+  margin-right: 10px;
+  border: 3px solid #29d9d5;
+  padding: 6px 20px;
+  border-radius: 25px;
+  background: none;
+  color: #29d9d5;
+}
+
+.register:hover{
+  background-color: #29d9d5;
+  color: black;
+}
+
+.card{
+  color: white;
+}
+.mapboxgl-popup .mapboxgl-popup-content{
+  background-color: #20201e;
+  border: 0px solid;
+  border-radius: 11px;
+}
+.mapboxgl-popup .mapboxgl-popup-content button{
+  color: #29d9d5;
+}
+.mapboxgl-popup-content form input, textarea,select{
+  background-color: #20201e;
+  color: rgba(255, 255, 255, 0.822);
+} 
+.mapboxgl-popup-content form select{
+  border-radius: 25px;
+  /* border: 2px solid #29d9d5; */
+  padding:2px 4px;
+  margin-bottom: 7px;
+}
+.mapboxgl-popup-content form button{
+  border: 3px solid #29d9d5;
+  border-radius: 25px;
+  background:none;
+  color: #29d9d5;
+} 
+.mapboxgl-popup-content form button:hover{
+  background-color:#29d9d5;
+  color: black;
+}
+.greeting{
+  font-size: 21px;
+  margin-left: 12px;
+  padding: 10px 20px;
+  border: 0px solid;
+  background: #222222;
+  color: white;
+  /* position: relative; */
+  text-align: center;
+  font-weight: 400;
+  padding-left: 36%;
+
+} 
+.head img{
+  width: 2%;
+  filter: saturate(6);
+  margin-right: 8px;
+}
+.head{
+  display: flex;
+  border: 0px solid black;
+  padding: 11px 33px;
+  font-size: 25px;
+  font-weight: 600;
+  align-items: center;
+  color: white;
+  background: #222222;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+
+}
+/* .head .user .greeting{
+  background-color: #222222;
+  padding-left: 35%;
+  color: #29d9d5;
+} */
+.button .login{
+    border: 3px solid #29d9d5;
+    padding: 6px 20px;
+    border-radius: 25px;
+    background: none;
+    color: #29d9d5;
+}

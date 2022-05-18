@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="css/form.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-paper-plane"></i>travel </a>
+
+    <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">services</a>
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">gallery</a>
+    </nav>
+
+    <a data-aos="zoom-in-left" data-aos-delay="1300" href="http://localhost:3000/" class="btn">Review now</a>
+    <a data-aos="zoom-in-left" data-aos-delay="1300" href="#book-form" class="btn">book now</a>
+
+</header>
+
+
+<div class="form-section">
+    <form action="/Form" method="POST">
+
+        <div class="details">
+
+        
+            <p id="fill-form">Please fill the form to place an order</p>
+            <hr class="hr-short">
+            <div class="form-name">
+                <input type="text" id="fname" name="firstname" placeholder="First Name" required="required">
+                <input type="text" id="lname" name="lastname" placeholder="Last Name" required="required">
+            </div>    
+            <input type="text" id="email" name="email" placeholder="Enter your Email" required="required">    
+            <input type="text" id="adr" name="address" placeholder="Enter Your Address" required="required">
+            
+            <div class="city">
+                <input type="text" id="city" name="city" placeholder="City" required="required">
+                <input type="text" id="state" name="state" placeholder="State" required="required">
+            </div>
+
+            <i>*All the fields are required</i>
+            <div class="b-tn">
+                <input type="submit" value="Place an Order">
+            </div>
+
+        </div>
+    </form>
+    </div>
+
+
+<!-- footer -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>travel </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ad?</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>quick links</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> services </a>
+            <a href="#gallery" class="links"> <i class="fas fa-arrow-right"></i> gallery </a>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map"></i> Chandigarh, india </p>
+            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+            <p> <i class="fas fa-envelope"></i> travel4fun@gmail.com </p>
+            <p> <i class="fas fa-clock"></i> 7:00am - 10:00pm </p>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" class="email" id="">
+                <div class="bt-n">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- <div class="credit"><span></span> copyright &copy; 2022| all rights reserved!</div> -->
+
+<!-- footer section ends -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 800,
+        offset:150,
+    });
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-paper-plane"></i>travel </a>
+
+    <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">services</a>
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">gallery</a>
+    </nav>
+        <a data-aos="zoom-in-left" data-aos-delay="1300" href="http://localhost:3000/" class="btn">Review now</a>
+        <a data-aos="zoom-in-left" data-aos-delay="1300" href="#book-form" class="btn">book now</a>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span data-aos="fade-up" data-aos-delay="150">Travel Log App</span>
+        <!-- <h3 data-aos="fade-up" data-aos-delay="300">to the unknown</h3> -->
+        <p data-aos="fade-up" data-aos-delay="450">“Traveling is wonderful in many ways. It captures us with a sense of wanderlust and has us longing for more destinations to visit, cultures to experience, food to eat, and people to meet. As amazing as traveling is, most of us think we need to wait until our later years to really explore a lot of the world.”</p>
+        <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn">book now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- booking form section starts  -->
+
+<section class="book-form" id="book-form">
+
+    <form action="/" method="POST">
+        <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+            <span>where to?</span>
+            <input type="text" name="Place name" placeholder="place name" required="required">
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
+            <span>when?</span>
+            <input type="date" name="Travelling date" required="required">
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
+            <span>how many?</span>
+            <input type="number" name="Number of person" placeholder="number of travelers" required="required">
+        </div>
+        <input data-aos="zoom-in" data-aos-delay="600" type="submit" value="Proceed" class="btn">
+    </form>
+
+</section>
+
+<!-- booking form section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+        <video src="images/about-vid-1.mp4" muted autoplay loop class="video"></video>
+        <div class="controls">
+            <span class="control-btn" data-src="images/about-vid-1.mp4"></span>
+            <span class="control-btn" data-src="images/about-vid-2.mp4"></span>
+            <span class="control-btn" data-src="images/about-vid-3.mp4"></span>
+        </div>
+    </div>
+
+    <div class="content" data-aos="fade-left" data-aos-delay="600">
+        <span>why choose us?</span>
+        <h3>Nature's Majesty Awaits You</h3>
+        <p>Look deep into nature, and then you will understand everything better. 
+            To walk into nature is to witness a thousand miracles.
+        </p>
+        <a href="#" class="btn">read more</a>
+    </div>
+
+</section>
+
+
+
+<section class="services" id="services">
+
+    <div class="heading">
+        <span>our services</span>
+        <h1>countless expericences</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <i class="fas fa-globe"></i>
+            <h3>worldwide</h3>
+            <p>You need not even listen, just wait…the world will offer itself freely to you, unmasking itself.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>There is a lot of adventures out there, waiting for us to live them!</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <i class="fas fa-utensils"></i>
+            <h3>food & drinks</h3>
+            <p>All types of foods, beverages and drinks are available</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>A hotel is a hotel all the world over, a place essentially vulgar, commonplace, venal, the travesty of a human home.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+            <i class="fas fa-wallet"></i>
+            <h3>affordable price</h3>
+            <p>Hotels, servicing and all facilities are at affordable prices.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="900">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p>24/7 support and services is available at any time and usually, every day</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <div class="heading">
+        <span>our gallery</span>
+        <h1>we record memories</h1>
+    </div>
+    
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img src="images/gallery-img-1.jpg" alt="">
+            <span>travel spot</span>
+            <h3>iceland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="images/gallery-img-2.jpg" alt="">
+            <span>travel spot</span>
+            <h3>greenland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img src="images/gallery-img-3.jpg" alt="">
+            <span>travel spot</span>
+            <h3>alaska</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img src="images/gallery-img-4.jpg" alt="">
+            <span>travel spot</span>
+            <h3>thailand</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="images/gallery-img-5.jpg" alt="">
+            <span>travel spot</span>
+            <h3>brazil</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img src="images/gallery-img-6.jpg" alt="">
+            <span>travel spot</span>
+            <h3>maldive</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img src="images/gallery-img-7.jpg" alt="">
+            <span>travel spot</span>
+            <h3>iceland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="images/gallery-img-8.jpg" alt="">
+            <span>travel spot</span>
+            <h3>alaska</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img src="images/gallery-img-9.jpg" alt="">
+            <span>travel spot</span>
+            <h3>maldive</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review">
+
+    <div class="content" data-aos="fade-right" data-aos-delay="300">
+        <span>About us</span>
+        <h3>Meet the developers</h3>
+        <p>Teamwork is when a group of people collaborate to achieve a mutual goal. This means that people within a group use their skills to overcome each other's weaknesses and achieve a goal which was otherwise not possible.</p>
+        <p>“Alone we can do so little; together we can do so much.”  --- Helen Keller</p>
+    </div>
+
+    <div class="box-container" data-aos="fade-left" data-aos-delay="600">
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, tempora.</p>
+            <div class="user">
+                <img src="images/Dhiraj-pic.jpg" alt="">
+                <div class="info">
+                    <h3>Dhiraj Sah</h3>
+                    <span>Frontend Developer</span>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ipsa?</p>
+            <div class="user">
+                <img src="images/swati pic.jfif" alt="">
+                <div class="info">
+                    <h3>Swati Joshi</h3>
+                    <span>Backend Developer</span>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, ratione.</p>
+            <div class="user">
+                <img src="images/ishita pic.jfif" alt="">
+                <div class="info">
+                    <h3>Ishita Tomar</h3>
+                    <span>Database Engineer</span>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, ratione.</p>
+            <div class="user">
+                <img src="images/kunal pic.jfif" alt="">
+                <div class="info">
+                    <h3>Kunal Badodia</h3>
+                    <span>designer</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- banner section starts  -->
+
+<div class="banner">
+
+    <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+        <span>start your adventures</span>
+        <h3>Let's Explore This World</h3>
+        <p>We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.</p>
+        <a href="#book-form" class="btn">book now</a>
+    </div>
+
+</div>
+
+<!-- banner section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>travel </a>
+            <p>A world of ocean adventure awaits with Let's Explore</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>quick links</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> services </a>
+            <a href="#gallery" class="links"> <i class="fas fa-arrow-right"></i> gallery </a>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map"></i> Chandigarh, india </p>
+            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+            <p> <i class="fas fa-envelope"></i> travel4fun@gmail.com </p>
+            <p> <i class="fas fa-clock"></i> 7:00am - 10:00pm </p>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" class="email" id="">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- <div class="credit"><span></span> copyright &copy; 2022| all rights reserved!</div> -->
+
+<!-- footer section ends -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 800,
+        offset:150,
+    });
+
+</script>
+
+</body>
+</html>
